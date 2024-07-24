@@ -4,7 +4,7 @@ prereq:
 	echo "compiling prereqs..."
 	gcc -c utama.c
 
-# more concise without generating .o files: gcc utama.c -o cmalay
+# more concise way without generating .o files: gcc utama.c -o cmalay
 main:
 	gcc utama.o -o cmalay
 
