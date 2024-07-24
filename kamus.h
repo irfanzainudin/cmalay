@@ -36,11 +36,11 @@
 // register
 #define pulang return
 // signed
-// sizeof
+#define saizuntuk sizeof
 #define statik static
 #define kaku static         // synonym / sinonim
 #define struktur struct
-#define struk struct    // abbreviation / singkatan
+#define struk struct        // abbreviation / singkatan
 #define tukar switch
 // typedef
 // union
@@ -54,5 +54,7 @@
 #define utama main
 #define cetak printf
 #define imbas scanf
+#define peruntuk_memori malloc
+#define utkm malloc         // abbreviation / singkatan
 
 #endif
