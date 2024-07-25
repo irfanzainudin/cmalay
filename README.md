@@ -6,7 +6,7 @@ I wanted to code in Malay but too busy (read: lazy) to write up my own compiler 
 
 If you want to use cmalay as well, all you have to do is copy [`kamus.h`](https://github.com/irfanzainudin/cmalay/blob/main/kamus.h) into your local directory/folder then `#include` it into your C file.
 
-For example, let's say you have a folder called `projek`. Inside that folder, you have `utama.c`. Copy `kamus.h` into your `projek` folder and in your `utama.c`, you need have this line of code:
+For example, let's say you have a folder called `projek`. Inside that folder, you have `utama.c`. Copy `kamus.h` into your `projek` folder and in your `utama.c`, you need to have this line of code:
 
 ```c
 #include "kamus.h"
