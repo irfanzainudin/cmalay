@@ -7,6 +7,8 @@ prereq:
 # more concise way without generating .o files: gcc utama.c -o cmalay
 main:
 	gcc utama.o -o cmalay
+	gcc اوتام.c -o cjawi
+	gcc utamo.c -o cklate
 
 clean:
-	rm *.o cmalay
+	rm *.o cmalay cjawi cklate
