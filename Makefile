@@ -11,4 +11,4 @@ main:
 	gcc utamo.c -o cklate
 
 clean:
-	rm *.o cmalay cjawi cklate
+	rm *.o cmalay cjawi cklate a.out
