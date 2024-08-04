@@ -1,4 +1,4 @@
-all: prereq main
+all: prereq main gld
 
 prereq:
 	echo "compiling prereqs..."
@@ -9,6 +9,10 @@ main:
 	gcc utama.o -o cmalay
 	gcc اوتام.c -o cjawi
 	gcc utamo.c -o cklate
+	gcc utama.s
+
+gld:
+	gcc bfs.c -o bfs
 
 clean:
-	rm *.o cmalay cjawi cklate a.out
+	rm *.o a.out bfs cmalay cjawi cklate
