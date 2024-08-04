@@ -56,5 +56,6 @@
 #define imbas scanf
 #define peruntuk_memori malloc
 #define utkm malloc         // abbreviation / singkatan
+#define bebas free
 
 #endif
