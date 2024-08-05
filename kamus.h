@@ -5,7 +5,7 @@
 #define huruf char
 #define aksara char         // synonym / sinonim
 #define dua double
-#define pecahan float
+#define perpuluhan float
 #define nombor int
 #define nom int             // abbreviation / singkatan
 #define panjang long
@@ -28,7 +28,7 @@
 #define angka enum          // abbreviation / singkatan
 #define perhitungan enum    // synonym / sinonim
 #define hitung enum         // abbreviation / singkatan
-// extern
+#define luar extern 
 #define untuk for
 #define gerak goto
 #define pergi goto          // synonym / sinonim
@@ -42,11 +42,11 @@
 #define struktur struct
 #define struk struct        // abbreviation / singkatan
 #define tukar switch
-// typedef
-// union
+#define defjenis typedef
+#define kesatuan union
 // unsigned
 #define kosong void
-// volatile
+#define berubah volatile 
 #define selagi while
 
 
